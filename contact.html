@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <div class="wrapper container">
+      <nav class="main-nav">
+        <ul class="ul-fisrtnav">
+          <a  href="index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="blog.html">BLOG</a>
+          <a class="highlight" href="contact.html">CONTACT</a>
+        </ul>
+      </nav>
+    <img class="hero-imag"  src="images/halle.png" alt="img placeholder">
+
+   <main class="contact">
+    <h2>Contact Me</h2>
+    <form action="process.php" method="POST">
+        <div class="contact-div">
+            <label for="username">First Name: </label>
+            <input type="text" name="fname" id="username" required>
+        </div>
+
+
+        <div class="contact-div">
+            <label for="username">Last Name: </label>
+            <input type="text" name="lname" id="lastrname" required>
+        </div>
+
+        <div class="contact-div">
+            <label for="control">Comments</label>
+            <textarea name="comment" id="txtarea" cols="59" rows="10"></textarea>
+        </div>
+
+        <div class="contact-div">
+            <button type="submit" value="submit">Submit</button>
+        </div>
+        </form>
+        <br>
+        <address>
+            Tallinding <br> Banjul,  The Gambia.
+          <br>  <a href="tel:+220">Tel: 7202201</a> <br>
+         <a href="mailto: ">annebina2020@gmail.com</a>
+        </address>
+        </main>
+
+        <aside class="asideimg">
+            <img class="shot-img" src="images/shot.png" alt="img placeholder">
+
+        </aside>
+
+    <footer>
+        <small>
+            &copy;2018-WP101::Anne Bibotain Nzima
+        </small>
+    </footer>
+    </div>
+
+
+</body>
+</html>

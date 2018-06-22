@@ -1,0 +1,310 @@
+body {
+    color: black;
+    line-height: 1.6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    min-width: 300px;
+    max-width: 1980px;
+}
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+/* home layout styling */
+
+.main-nav {
+    text-align: center;
+    background-color: rgb(52, 148, 238);
+}
+
+.highlight {
+    background-color:rgb(226, 222, 222) ;
+}
+
+.main-nav  a {
+    color: rgb(44, 43, 43);
+    text-decoration: none;
+    display: inline-block;
+    padding: 2em;
+}
+
+.ul-fisrtnav  a {
+    padding: 1.6em;
+}
+
+.main-nav a:hover {
+    background-color: rgb(226, 222, 222);
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header-section {
+    display: flex;
+
+}
+
+.heading {
+    margin-left: 3em;
+}
+
+.header-button {
+    background-color: rgb(131, 187, 233);
+    padding: 1em;
+}
+
+.abutton {
+    text-decoration: none;
+    color: white;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.one-of-three {
+     width: calc((100% - 1.5em * 2) / 3);
+     text-align: center;
+     padding: 0 10px 10px 10px;
+     border: 1px solid black;
+}
+
+.middle {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+/* about layout styling*/
+
+.side-nav a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(52, 148, 238);
+    display: block;
+    padding: .8em 1em;
+    border-bottom: 1px solid lightgray;
+}
+
+.hero-imag {
+    width: 120%;
+    height: 5%;
+    margin-top: -2%;
+}
+.aside {
+    float: left;
+    width: 30%;
+    margin-top: 1em;
+}
+
+.main-content {
+    float: right;
+    width: 60%;
+    background-color: lightgray;
+    padding: 2em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.side-nav {
+    margin-bottom: 1.6em;
+}
+
+.side-nav a:hover {
+    background-color: lightgray;
+}
+
+.side-img {
+    width: 120%;
+}
+
+/*Background layout styling*/
+
+.mainbackground-img {
+    width: 110%;
+    height: 400px;
+}
+
+/* Blog syling layout*/
+
+.main-blog{
+    background-color: lightgray;
+    width: 60%;
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+
+.left-aside {
+    width: 35%;
+    margin-left: 2rem;
+
+}
+
+
+.blog-left {
+    margin-top: 3em;
+    float: left;
+    background-color: white;
+    width: 40%;
+    height: 30%;
+    padding: 0 10px 0 10px;
+    border: 1px solid darkgray;
+    box-shadow: rgb(0, 0, 0,0.5);
+    margin: 15px 20px 10px 46px;
+}
+
+.blog-right {
+    margin-top: 3em;
+    float: right;
+    background-color: white;
+    width: 40%;
+    height: 30%;
+    padding: 0 10px 0 10px;
+    border: 1px solid darkgray;
+    box-shadow: rgb(0, 0, 0,0.5);
+    margin: 15px 10px 10px 24px;
+}
+
+.blog-imgbaby {
+    width: 100%;
+    height: 40%;
+}
+
+.storylink {
+    text-decoration: none;
+    color: blueviolet;
+    border-bottom: 1px solid purple;
+}
+
+.blog-img {
+    width: 140%;
+}
+
+.maindivblog {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+.left-aside a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    border-bottom: 1px solid rgb(39, 38, 38);
+    padding: 1em;
+}
+
+.left-aside a:hover {
+    background-color: rgb(203, 161, 211);
+}
+
+.handmade-img {
+    width: 100%;
+    height: 10%;
+}
+
+.div-blogsection{
+    width: 60%;
+    background-color: rgb(224, 222, 222);
+    margin-top: 3em;
+
+}
+
+.main-section{
+    float: left;
+    margin-bottom: 2em;
+    background-color: lightgray;
+}
+
+.left-aside {
+    float: right;
+}
+
+/* contact layout styling*/
+
+.contact {
+    background-color: lightgray;
+    padding: 0em 2em .8em 2em;
+    float: left;
+    width: 60%;
+    margin-bottom: 2em;
+    margin-top: 3em;
+}
+
+.asideimg {
+    float: right;
+    width: 35%;
+    margin-top: 3em;
+
+}
+
+.shot-img {
+    width: 100%;
+    height: 647px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    padding: .5em;
+}
+
+input {
+    height: 50px;
+    width: 70%;
+    margin-left: .7em;
+    border: none;
+    border-bottom: 4px solid lightskyblue;
+}
+
+button[type="submit"] {
+    padding: 1em 2em 1em 2em;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}
+
+footer {
+    padding: 2em;
+    background-color:  rgb(52, 148, 238);
+    color:  rgb(51, 51, 51);
+    clear: both;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
